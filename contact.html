@@ -1,0 +1,59 @@
+<?php
+include 'inc/header.php';
+?>
+<body>
+<!-- Navigation-starts-Here -->
+		<div class="header">
+		<div class="container">
+			<div class="banner-nav">
+				<span class="menu"><img src="images/menu.png" alt=" "/></span>
+					<ul class="nav1">
+								<nav class="cl-effect-3">
+									<li><a href="/kakas/index.php" >Home</a></li>
+									<li><a href="/kakas/about.php">About Us</a></li>
+
+									<li><a href="/kakas/services.php">Our Products</a>
+
+									</li>
+									<li><a href="/kakas/bulk.php">Bulk Orders</a></li>
+									<li><a href="/kakas/contact.php" class="act">Contact Us</a></li>
+								</nav>
+					</ul>
+
+				<div class="logo">
+					<a href="index.php"><img src="images/logo.png" alt=" " /></a>
+				</div>
+			</div>
+				<!-- script for menu -->
+						<script>
+							$( "span.menu" ).click(function() {
+							$( "ul.nav1" ).slideToggle( 300, function() {
+							 // Animation complete.
+							});
+							});
+						</script>
+					<!-- //script for menu -->
+		</div>
+		</div>
+
+
+<!-- //Navigation-ends-Here-->
+	<div class="about">
+	<div class="container">
+		<h3>KAKA'S</h3>
+		<h3 class="t1">Suiting & Shirting</h3>
+		<p class="para1">"Designed  for  fit  &  Loved  for  style!"</p>
+<form class="cd-form floating-labels">
+	<fieldset>
+	<legend>Contact Information</legend>
+
+	<p text-align=center> Address</p>
+	<font size="4" color="#5F9EA0"><b>Lahoti Bhiwandi, Kalyan Road, Babla Compound, Shastri Nagar, Bhiwandi, Dist: Thane, Maharashtra - 421308</b></font>
+	</fieldset>
+</form>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script>
+
+<?php
+include 'inc/footer.php';
+?>
